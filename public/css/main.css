@@ -1,0 +1,170 @@
+body{
+
+}
+
+/* SLIDER*/
+
+.slidermain{
+    background: rgba(0,0,0,0.7);
+}
+
+.slidermain .col-md-9, .slidermain .col-md-3{
+    padding-right: 0;
+}
+.slidermain .col-md-3{
+    padding-left: 5px !important;
+}
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.slidermain .carousel-indicators{
+    left: auto !important;
+    right: 0 !important;
+    width: 15% !important;
+}
+
+.logo{
+    width: 100%;
+    height: 38.3em;
+    margin-top: -8px;
+}
+
+/*MENU*/
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: transparent !important;
+}
+.navbar-default{
+    background-color: white !important;
+    border-color: white !important;
+}
+.navbar{
+    border-radius: 0 !important;
+}
+.menumain{
+    background: white;
+}
+.menumain ul{ 
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menumain li{
+    float: left;
+    border: 1px solid black;
+    list-style: none;
+    padding: 0px 3.35%;
+    margin: 0 !important;
+}
+
+.menumain li a{
+    font-size: 1.5em ;
+    font-family: 'Myriad Pro';
+    text-decoration: none;
+    color: #004A99;
+}
+
+.menumain li:hover{
+    background: red;
+    color: white !important;
+}
+
+.menumain a:hover{
+    color: white !important;
+}
+
+.menumain .activemenu{
+    background-color: red;
+    color:white;
+}
+.activemenu a{
+    color:white !important;
+}
+
+/*INFORMACION*/
+
+.infoderecha{
+    background-color: rgba(0,0,0,0.7);   
+}
+
+.infomain .col-md-3{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+} 
+
+.info{
+    margin-top: 5px; 
+    margin-bottom: 4em;   
+    height: 200px;
+    position: relative;   
+}
+
+.infocenter img{
+    position: absolute;
+    left: 85px;   
+    top: 25px;
+    height: 150px;
+    -webkit-transition: all 1s ease;
+}
+.infocenter img:hover{
+    -webkit-transform:scale(1.1);
+}
+.infocenter h2{
+    position: absolute;
+    bottom: -50px;
+    text-align: center;
+    color: white;
+}
+.infocenter a{
+    color:white !important;
+    text-decoration: none;
+}
+.infoimg{
+    overflow: hidden;
+}
+.infoimg img{
+   width: 100%;
+   opacity: 0.3;
+}
+
+/*OBRAS*/
+.obras{
+    margin-top: 2em !important;    
+}
+.obras img{   
+    width: 100%;   
+}
+.obras h2{
+   color: #004A99;
+   border-bottom: 2px solid #004A99;
+   text-align: center;
+}
+
+.descripobra{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    width: 94%;
+    text-align: center;
+}
+.descripobra h3{
+    color: white;
+}
+
+.horizontal{
+    border-right: 2px solid #004A99;   
+}
+.vertical{
+    border-left: 2px solid #004A99;
+}
+
+@media (max-width: 768px){
+    nav li{
+        width: 100% !important;
+    }
+}
